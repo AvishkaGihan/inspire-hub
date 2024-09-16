@@ -17,7 +17,7 @@
 /build
 
 # misc
-.DS_Store
+.DS_Storei
 *.pem
 
 # debug
@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Visual Studio Code
+.vscode/

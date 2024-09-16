@@ -2,6 +2,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #f0f4f8;
 }
 
 .main {
@@ -16,7 +17,10 @@
 .title {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: #1a365d;
   text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .description {
