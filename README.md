@@ -1,8 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Inspire Hub
+
+Inspire Hub is a Next.js-based web application showcasing creative projects and ideas.
+
+## Table of Contents
+
+- [Inspire Hub](#inspire-hub)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+    - [Home Page](#home-page)
+    - [Projects Page](#projects-page)
+    - [Project Detail Page](#project-detail-page)
+    - [About Page](#about-page)
+    - [Contact Page](#contact-page)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Project Structure](#project-structure)
+  - [Technologies Used](#technologies-used)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
+
+## Features
+
+- Browse creative projects
+- View detailed project information
+- Responsive design for various devices
+- Server-side rendering with Next.js
+
+## Screenshots
+
+### Home Page
+
+![Home Page](public/screenshots/home.jpg)
+
+### Projects Page
+
+![Projects Page](public/screenshots/projects.jpg)
+
+### Project Detail Page
+
+![Project Detail](public/screenshots/project-detail.jpg)
+
+### About Page
+
+![About Page](public/screenshots/about.jpg)
+
+### Contact Page
+
+![Contact Page](public/screenshots/contact.jpg)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (version 18.17.0 or later)
+- npm, yarn, pnpm, or bun package manager
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AvishkaGihan/inspire-hub.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd inspire-hub
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +93,30 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open <http://localhost:3000> with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- src/app: Next.js app router pages
+- src/components: Reusable React components
+- public: Static assets
+- styles: CSS modules and global styles
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js
+- React
+- TypeScript
+- CSS Modules
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+
+For any inquiries, please reach out to <avishkag18@gmail.com>.
